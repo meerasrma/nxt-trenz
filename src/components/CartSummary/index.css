@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.summary-container {
+  min-width: 200px;
+  max-width: 100%;
+  align-self: flex-end;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+}
+
+.calculated-price {
+  color: #171f46;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.total-price {
+  color: #616e7c;
+}
+.item-count {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #616e7c;
+}
+.checkout-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  border: none;
+  outline: none;
+  padding: 8px 20px 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
